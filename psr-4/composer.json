@@ -1,0 +1,19 @@
+{
+    "name": "eti/curso-psr",
+    "description": "Curso de PSRs do EspecializaTi",
+    "authors": [
+        {
+            "name": "nely de faria",
+            "email": "nelly.nf54@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "ETI\\": "src/eti/"
+        }
+    }
+}
